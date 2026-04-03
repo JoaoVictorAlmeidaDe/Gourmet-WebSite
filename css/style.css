@@ -49,6 +49,10 @@ html {
     background: rgb(255, 255, 255);
 }
 
+.menu a:hover {
+    background: rgb(153, 147, 147);
+}
+
 .section {
     height: 100vh;
     padding-top: 100px;
