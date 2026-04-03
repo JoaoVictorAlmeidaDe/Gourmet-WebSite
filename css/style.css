@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#cabecalho {
+    background: rgb(255, 255, 255);
+    padding: 9px;
+    position: fixed;
+    width: 100%;
+}
+
+.title {
+    font-size: 18pt;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 9px;
+    display: flex;
+    gap: 30px;
+    margin-left: 174vh;
+    margin-top: 5px;
+
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.section {
+    height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+
+#about {
+    background: rgb(255, 255, 255);
+}
+
+#hamburger-jpg {
+    width: 86%;
+    height: 100%;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    text-align: center;
+}
+
+.food img {
+    width: 500px;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 35pt;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 150px;
+}
+
+#menu {
+    background: lightgreen;
+}
+
+#contact {
+    background: white;
+}
+
+/* about */
+
+.sobre {
+    display: flex;
+    gap: 60px;
+    padding: 80px 120px;
+    align-items: flex-start;
+}
+
+.catering-jpg {
+    width: 600px;
+    height: 780px;
+    margin-top: -40px;
+}
+
+.texto-sobre {
+    max-width: 600px;
+}
+
+/* titulo */
+
+#About-Catering {
+    font-size: 45px;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* subtitulo */
+
+#sub-titulo {
+    color: gray;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+/* paragrafos */
+
+.paragrafo01 {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 18px;
+    margin-left: -10px;
+}
+
+.paragrafo02 {
+    color: gray;
+    line-height: 1.8;
+    font-size: 18px;
+    margin-left: -10px;
+}
+
+/* our menu */
+.our-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    /* Inverte a ordem: imagem na direita, texto na esquerda */
+    align-items: flex-start;
+    /* Alinha os itens pelo topo */
+    justify-content: center;
+    /* Centraliza o conjunto na tela */
+    gap: 50px;
+    /* Espaço entre o texto e a imagem */
+    padding: 50px;
+}
+
+/* Ajuste da imagem */
+.tablesetting-jpg {
+    max-width: 650px;
+    height: auto;
+    margin-top: -50px;
+}
+
+/* Ajuste do bloco de texto */
+.texto-ourMenu {
+    max-width: 500px;
+    /* Limita a largura do texto para não espalhar */
+    text-align: left;
+
+}
+
+/* Estilização dos títulos para ficarem parecidos com a imagem 2 */
+.titulos-do-menu h4 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    font-size: 15pt;
+    font-family: "Playfair Display";
+    padding: 8pt;
+}
+
+.titulos-do-menu p {
+    color: #666;
+    /* Tom de cinza para a descrição */
+    margin: 0;
+    font-size: 12pt;
+    font-family: "Playfair Display";
+}
+
+/* FOOTER / FINAL */
+.Contactt {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -320px;
+    font-size: 37pt;
+    margin-left: -870px;
+    letter-spacing: 4px;
+    padding: 20px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 14pt;
+    margin-left: 240px;
+    text-align: justify;
+    max-width: 1320px;
+}
+
+.CateringTitulo {
+    font-size: 17pt;
+    color: #517272;
+    margin-left: 240px;
+}
+
+#formulario-final {
+    max-width: 1100px;
+    font-family: Arial, sans-serif;
+    margin-left: 240px;
+
+}
+
+#formulario-final form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo geral para todos os inputs */
+#formulario-final input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 25px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    color: #666;
+    background: transparent;
+}
+
+#formulario-final input:hover {
+    border: 1px solid black;
+
+}
+
+/* Estilo para o botão */
+#formulario-final button {
+    align-self: flex-start;
+    background-color: #ccc6c6;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: background 0.3s;
+}
+
+#formulario-final button:hover {
+    background-color: #e0e0e0;
+}
+
+#formulario-final input:last-of-type {
+    margin-bottom: 10px;
+}
+
+/* footer */
+#footer-background {
+    background: rgb(189, 181, 181);
+    padding: 50px;
+    margin-top: -120px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 9pt;
+}
